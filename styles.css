@@ -5,20 +5,22 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .container {
-  width: 400px;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  margin: 50px auto;
+  width: 384px;
+  height: 576px;
+  padding: 0;
+  margin: 20px 0 0 20px; /* Прикрепляем контейнер к верхнему левому углу */
+  border-radius: 0; /* Убираем закругление у главного блока */
 }
 
 .header {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .header h1 {
@@ -40,7 +42,7 @@ body {
   background-color: #f0f0f0;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 10px; /* Оставляем закругление у вспомогательных блоков */
 }
 
 .label {
@@ -58,10 +60,10 @@ button {
   color: white;
   padding: 15px 30px;
   border: none;
-  border-radius: 10px;
   cursor: pointer;
   font-size: 18px;
   transition: background-color 0.3s;
+  border-radius: 10px; /* Закругляем углы кнопки */
 }
 
 button:hover {
