@@ -14,8 +14,7 @@ body {
   width: 384px;
   height: 576px;
   padding: 0;
-  margin: 20px 0 0 20px; /* Прикрепляем контейнер к верхнему левому углу */
-  border-radius: 0; /* Убираем закругление у главного блока */
+  margin: 10px 0 0 10px;
 }
 
 .header {
@@ -40,9 +39,9 @@ body {
 
 .info-block {
   background-color: #f0f0f0;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px; /* Оставляем закругление у вспомогательных блоков */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .label {
