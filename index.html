@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Токен Майнер</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Майнер</h1>
+        <p class="subtitle">
+          Получайте токены и выполняйте задания, чтобы увеличить скорость!
+        </p>
+      </div>
+      <div class="content">
+        <div class="mining-info">
+          <div class="info-block">
+            <p class="label">Скорость майнинга:</p>
+            <p class="value"><span id="mining-speed">20</span> токенов в час</p>
+          </div>
+          <div class="info-block">
+            <p class="label">Ваш баланс:</p>
+            <p class="value"><span id="tokens-mined">0.0000</span> токенов</p>
+          </div>
+          <div class="info-block">
+            <p class="label">Таймер до сгорания токенов:</p>
+            <p class="value" id="timer">6:00:00</p>
+          </div>
+        </div>
+        <button id="claim-btn" onclick="claimTokens()" disabled>Забрать</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
